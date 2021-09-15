@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/stromyoga-react/static/css/main.6cd8a4d6.chunk.css",
+    "main.js": "/stromyoga-react/static/js/main.859d6754.chunk.js",
+    "main.js.map": "/stromyoga-react/static/js/main.859d6754.chunk.js.map",
+    "runtime-main.js": "/stromyoga-react/static/js/runtime-main.a7a79efd.js",
+    "runtime-main.js.map": "/stromyoga-react/static/js/runtime-main.a7a79efd.js.map",
+    "static/js/2.55a90a5c.chunk.js": "/stromyoga-react/static/js/2.55a90a5c.chunk.js",
+    "static/js/2.55a90a5c.chunk.js.map": "/stromyoga-react/static/js/2.55a90a5c.chunk.js.map",
+    "static/js/3.a8d578e9.chunk.js": "/stromyoga-react/static/js/3.a8d578e9.chunk.js",
+    "static/js/3.a8d578e9.chunk.js.map": "/stromyoga-react/static/js/3.a8d578e9.chunk.js.map",
+    "index.html": "/stromyoga-react/index.html",
+    "static/css/main.6cd8a4d6.chunk.css.map": "/stromyoga-react/static/css/main.6cd8a4d6.chunk.css.map",
+    "static/js/2.55a90a5c.chunk.js.LICENSE.txt": "/stromyoga-react/static/js/2.55a90a5c.chunk.js.LICENSE.txt",
+    "static/media/Yoga1.0539ebe3.jpg": "/stromyoga-react/static/media/Yoga1.0539ebe3.jpg",
+    "static/media/black-low-res.3af9d135.png": "/stromyoga-react/static/media/black-low-res.3af9d135.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7a79efd.js",
+    "static/js/2.55a90a5c.chunk.js",
+    "static/css/main.6cd8a4d6.chunk.css",
+    "static/js/main.859d6754.chunk.js"
+  ]
+}
