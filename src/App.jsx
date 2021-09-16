@@ -3,18 +3,17 @@ import {HashRouter as Router} from 'react-router-dom'
 import Routes from './Routes'
 import Menu from './components/Menu'
 
+import './Tailwind.css'
 import './App.scss'
 
-function App() {
-  return (
-    <>
+export const App = () => {
+    return (
       <Router>
         <Menu />
         <Routes />
         {/* <Footer /> */}
       </Router>
-    </>
-  );
+    )
 }
 
 export default App;
