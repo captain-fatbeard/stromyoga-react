@@ -3,9 +3,9 @@ import { Route, Switch } from 'react-router-dom'
 import Home from './pages/Home'
 import AlignmentYoga from './pages/AlignmentYoga'
 import CocktailBeerYoga from './pages/CocktailBeerYoga'
-import YogaDybAfspaending from './pages/YogaDybAfspaending'
+import OneToOneYoga from './pages/OneToOneYoga'
 import SkemaBookning from './pages/SkemaBookning'
-import Boerneyoga from './pages/Boerneyoga'
+import Bjoerneyoga from './pages/Bjoerneyoga'
 import Yokao from './pages/Yokao'
 import KoebKakao from './pages/KoebKakao'
 import YogaBibliotek from './pages/YogaBibliotek'
@@ -19,9 +19,9 @@ const Routes = (props) => {
             <Route exact path="/" component={Home} />
             <Route exact path="/alignment-yoga" component={AlignmentYoga} />
             <Route exact path="/cocktail-beer-yoga" component={CocktailBeerYoga} />
-            <Route exact path="/yoga-dyb-afspænding" component={YogaDybAfspaending} />
+            <Route exact path="/1-1-yoga" component={OneToOneYoga} />
             <Route exact path="/skema-bookning" component={SkemaBookning} />
-            <Route exact path="/børneyoga" component={Boerneyoga} />
+            <Route exact path="/bjørneyoga" component={Bjoerneyoga} />
             <Route exact path="/yokao" component={Yokao} />
             <Route exact path="/køb-kakao" component={KoebKakao} />
             <Route exact path="/yoga-bibliotek" component={YogaBibliotek} />
