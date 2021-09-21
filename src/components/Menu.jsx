@@ -28,7 +28,7 @@ export const Menu = () => {
         }
         // Here, we set useEffect() arguments as empty array.
         // This means useEffect() will only run once after component loaded
-      }, [])
+    }, [])
 
     const toggleNavbar = () => {
         if (navbarOpen) setNavbarOpen(false)
