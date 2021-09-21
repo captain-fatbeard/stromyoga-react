@@ -12,7 +12,7 @@ export const CartGrid = () => {
                     <Cart cartTitle="Yogabibliotek" img="https://picsum.photos/600/400/?random" link="yoga-bibliotek"/>
                     <Cart cartTitle="Køb Kakao" img="https://picsum.photos/600/400/?random" link="køb-kakao"/>
                     <Cart cartTitle="Yo'kao" img="https://picsum.photos/600/400/?random" link="yokao"/>
-                    <Cart cartTitle="Børneyogaforløb" img="https://picsum.photos/600/400/?random" link="børneyoga"/>
+                    <Cart cartTitle="Bjørneyoga" img="https://picsum.photos/600/400/?random" link="bjørneyoga"/>
                     <Cart cartTitle="Opskrifter" img="https://picsum.photos/600/400/?random" link="opskrifter"/>
                 </div>
             </div>
