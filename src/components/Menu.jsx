@@ -42,7 +42,8 @@ export const Menu = () => {
 
 
     return (
-        <nav className={'w-full z-50 transition-all ' + (isSticky ? 'fixed top-0 bg-white' : 'absolute bottom-20')} ref={ref}>
+        <nav className={'w-full z-50 transition-all ' + (isSticky ? 'fixed top-0 bg-white' : 'fixed top-0 bg-white')} ref={ref}>
+        {/* <nav className={'w-full z-50 transition-all ' + (isSticky ? 'fixed top-0 bg-white' : 'absolute bottom-20')} ref={ref}> */}
             <div className="flex flex-wrap justify-center px-4 py-2 font-semibold">
 
                 {/* toggle button */}
