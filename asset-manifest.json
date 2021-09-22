@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/stromyoga-react/static/css/main.a0e0588a.chunk.css",
-    "main.js": "/stromyoga-react/static/js/main.666cf217.chunk.js",
-    "main.js.map": "/stromyoga-react/static/js/main.666cf217.chunk.js.map",
+    "main.css": "/stromyoga-react/static/css/main.41abdf80.chunk.css",
+    "main.js": "/stromyoga-react/static/js/main.a359b7aa.chunk.js",
+    "main.js.map": "/stromyoga-react/static/js/main.a359b7aa.chunk.js.map",
     "runtime-main.js": "/stromyoga-react/static/js/runtime-main.e1f3468d.js",
     "runtime-main.js.map": "/stromyoga-react/static/js/runtime-main.e1f3468d.js.map",
     "static/js/2.05b39c2a.chunk.js": "/stromyoga-react/static/js/2.05b39c2a.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.969153f8.chunk.js": "/stromyoga-react/static/js/3.969153f8.chunk.js",
     "static/js/3.969153f8.chunk.js.map": "/stromyoga-react/static/js/3.969153f8.chunk.js.map",
     "index.html": "/stromyoga-react/index.html",
-    "static/css/main.a0e0588a.chunk.css.map": "/stromyoga-react/static/css/main.a0e0588a.chunk.css.map",
+    "static/css/main.41abdf80.chunk.css.map": "/stromyoga-react/static/css/main.41abdf80.chunk.css.map",
     "static/js/2.05b39c2a.chunk.js.LICENSE.txt": "/stromyoga-react/static/js/2.05b39c2a.chunk.js.LICENSE.txt",
     "static/media/Kakao2.83d6e8b0.jpg": "/stromyoga-react/static/media/Kakao2.83d6e8b0.jpg",
     "static/media/Yoga1.0539ebe3.jpg": "/stromyoga-react/static/media/Yoga1.0539ebe3.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.e1f3468d.js",
     "static/js/2.05b39c2a.chunk.js",
-    "static/css/main.a0e0588a.chunk.css",
-    "static/js/main.666cf217.chunk.js"
+    "static/css/main.41abdf80.chunk.css",
+    "static/js/main.a359b7aa.chunk.js"
   ]
 }
