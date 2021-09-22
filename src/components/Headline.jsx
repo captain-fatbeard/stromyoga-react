@@ -8,7 +8,7 @@ export const Headline = (props) => {
 
     return (
         <>
-            <h2 className={'lg:text-5xl mb-8 transition-all delay-200 duration-1000 ' + (isVisible ? '' : 'lg:-ml-24')} ref={ref}>{props.text}</h2>
+            <h2 className={'font-bold text-2xl lg:text-5xl mb-8 transition-all delay-200 duration-1000 ' + (isVisible ? '' : 'lg:-ml-24')} ref={ref}>{props.text}</h2>
         </>
     )
 }

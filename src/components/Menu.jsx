@@ -57,7 +57,7 @@ export const Menu = () => {
                 </button>
 
                 {/* menu */}
-                <div className={'w-full lg:inline-flex lg:w-auto mt-2 lg:mt-0 ' + (navbarOpen ? '' : 'hidden')}>
+                <div className={'z-50 w-full lg:inline-flex lg:w-auto mt-2 lg:mt-0 ' + (navbarOpen ? '' : 'hidden')}>
                     <ul className="w-full lg:w-auto flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-2">
                         <li>
                             <Link onClick={toggleNavbar} to="/" className="flex py-2 px-4 hover:text-gray-200" href="#">Strømyoga</Link>
