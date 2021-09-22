@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import {Link} from "react-router-dom"
 import { withRouter } from "react-router"
+import blackLogo from './../assets/black-low-res.png'
 
 
 export const Menu = () => {
@@ -46,8 +47,10 @@ export const Menu = () => {
         {/* <nav className={'w-full z-50 transition-all ' + (isSticky ? 'fixed top-0 bg-white' : 'absolute bottom-20')} ref={ref}> */}
             <div className="flex flex-wrap justify-center px-4 py-2 font-semibold">
 
+                <div className="absolute inset-0 bg-center bg-no-repeat bg-contain lg:hidden" style={{backgroundImage: 'url(' + blackLogo + ')'}}></div>
+
                 {/* toggle button */}
-                <button onClick={toggleNavbar} className="lg:hidden inline-flex items-center justify-center border h-10 w-10 rounded-md outline-none focus:outline-none ml-auto">
+                <button onClick={toggleNavbar} className="z-50 lg:hidden inline-flex items-center justify-center border h-10 w-10 rounded-md outline-none focus:outline-none ml-auto">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                     </svg>

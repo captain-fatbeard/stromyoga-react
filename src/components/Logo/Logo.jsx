@@ -1,5 +1,5 @@
 import React from 'react'
-import blackLogo from './black-low-res.png';
+import blackLogo from './black-low-res.png'
 
 export const Logo = () => {
 
