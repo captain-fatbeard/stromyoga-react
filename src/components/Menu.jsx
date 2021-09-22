@@ -57,31 +57,31 @@ export const Menu = () => {
                 <div className={'w-full lg:inline-flex lg:w-auto mt-2 lg:mt-0 ' + (navbarOpen ? '' : 'hidden')}>
                     <ul className="w-full lg:w-auto flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-2">
                         <li>
-                            <Link to="/" className="flex py-2 px-4 hover:text-gray-200" href="#">Strømyoga</Link>
+                            <Link onClick={toggleNavbar} to="/" className="flex py-2 px-4 hover:text-gray-200" href="#">Strømyoga</Link>
                         </li>
                         <li onMouseLeave={toggleYogaDropdown} onMouseEnter={toggleYogaDropdown} className="relative">
                             <button className="font-semibold flex w-full py-2 px-4 hover:text-gray-400 outline-none focus:outline-none">Yoga</button>
 
                             <div className={'lg:absolute left-0 px-4 py-2 bg-pink-200 rounded-lg ' + (yogaDropdownVisible ? '' : 'hidden')}>
                                 <ul className="space-y-2 lg:w-48">
-                                    <li><Link to="/alignment-yoga" className="flex py-2 hover:text-gray-400">Alignment yoga</Link></li>
-                                    <li><Link to="/cocktail-beer-yoga" className="flex py-2 hover:text-gray-400">Cocktail / beer yoga</Link></li>
-                                    <li><Link to="/1-1-yoga" className="flex py-2 hover:text-gray-400">1:1 yoga</Link></li>
-                                    <li><Link to="/skema-bookning" className="flex py-2 hover:text-gray-400">Skema / bookning</Link></li>
+                                    <li><Link onClick={toggleNavbar} to="/alignment-yoga" className="flex py-2 hover:text-gray-400">Alignment yoga</Link></li>
+                                    <li><Link onClick={toggleNavbar} to="/cocktail-beer-yoga" className="flex py-2 hover:text-gray-400">Cocktail / beer yoga</Link></li>
+                                    <li><Link onClick={toggleNavbar} to="/1-1-yoga" className="flex py-2 hover:text-gray-400">1:1 yoga</Link></li>
+                                    <li><Link onClick={toggleNavbar} to="/skema-bookning" className="flex py-2 hover:text-gray-400">Skema / bookning</Link></li>
                                 </ul>
                             </div>
                         </li>
                         <li>
-                            <Link to="/bjørneyoga" className="flex py-2 px-4 hover:text-gray-200" href="#">Bjørneyoga</Link>
+                            <Link onClick={toggleNavbar} to="/bjørneyoga" className="flex py-2 px-4 hover:text-gray-200" href="#">Bjørneyoga</Link>
                         </li>
                         <li>
-                            <Link to="/yokao" className="flex py-2 px-4 hover:text-gray-200" href="#">Yo'kao</Link>
+                            <Link onClick={toggleNavbar} to="/yokao" className="flex py-2 px-4 hover:text-gray-200" href="#">Yo'kao</Link>
                         </li>
                         <li>
-                            <Link to="/køb-kakao" className="flex py-2 px-4 hover:text-gray-200" href="#">Køb Kakao</Link>
+                            <Link onClick={toggleNavbar} to="/køb-kakao" className="flex py-2 px-4 hover:text-gray-200" href="#">Køb Kakao</Link>
                         </li>
                         <li>
-                            <Link to="/yoga-bibliotek" className="flex py-2 px-4 hover:text-gray-200" href="#">Yoga Bibliotek</Link>
+                            <Link onClick={toggleNavbar} to="/yoga-bibliotek" className="flex py-2 px-4 hover:text-gray-200" href="#">Yoga Bibliotek</Link>
                         </li>
                     </ul>
                 </div>

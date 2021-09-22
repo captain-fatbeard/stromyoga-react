@@ -9,7 +9,7 @@ export const NewsletterForm = () => {
 
             <form action="#" className="mt-2">
                 <div className="flex items-center">
-                    <input type="email" className="w-full px-2 py-4 mr-2 bg-gray-50 rounded-md border border-gray-400 focus:outline-none" required />
+                    <input type="email" placeholder="email" className="w-full px-2 py-4 mr-2 bg-gray-50 rounded-md border border-gray-400 focus:outline-none" required />
                     <button className="bg-gray-900 text-gray-100 px-5 py-2 rounded" >Tilmeld</button>
                     {/* style="margin-left: -7.8rem;" */}
                 </div>

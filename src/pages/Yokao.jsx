@@ -7,7 +7,7 @@ export const Yokao = () => {
         <>
             <div className="bg-cover bg-center bg-fixed" style={{backgroundImage: 'url(' + Kakao2 + ')'}}>
                 <section className="h-screen flex items-center">
-                    <h1 className="text-7xl mb-8">Yo’kao</h1>
+                    <h1 className="text-7xl mb-8 full-width-headline text-white font-black">Yo’kao</h1>
                 </section>
                 <section className="flex p-4 lg:p-20 bg-gray-50">
                     <About

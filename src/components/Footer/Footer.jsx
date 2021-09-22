@@ -5,7 +5,7 @@ export const Footer = () => {
 
     return (
         <>
-            <footer className="bg-gray-100 w-full px-4 my-32">
+            <footer className="bg-gray-100 w-full pt-32">
    
                 <div className="px-4 pt-3 pb-4">
                     <div className="max-w-xl mx-auto">
@@ -26,7 +26,7 @@ export const Footer = () => {
                     </a>
                     <a href="mailto:123@123.dk" className="m-2">
                         <svg fill="none" className="h-10 w-10 text-gray-900" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                         </svg>
                     </a>
                     {/* <a href="#" className="m-2">
