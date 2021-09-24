@@ -1,23 +1,20 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 
-export const Cart = ({cartTitle, img, link}) => {
+export const Cart = ({cartTitle, img, link, itemInRow}) => {
 
     return (
         <>
-            <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+            <div className={'my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/'+itemInRow}> 
                 <Link to={link}>
-                    <article className="overflow-hidden rounded-lg shadow-lg">
+                    <article className="flex flex-wrap justify-center content-center h-80 rounded-lg shadow-lg p-4 bg-cover" style={{backgroundImage: 'url(' + img + ')'}}>
                 
-                        {img && 
-                            <img alt="Placeholder" className="block h-auto w-full" src={img} />
-                        }
 
-                        <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-                            <h1 className="text-lg">
+                        {/* <header className="flex items-center justify-between leading-tight p-2 md:p-4 bg-pink-100"> */}
+                            <div className="text-5xl text-white font-bold">
                                 {cartTitle}
-                            </h1>
-                        </header>
+                            </div>
+                        {/* </header> */}
                     </article>
                 </Link>
             </div>

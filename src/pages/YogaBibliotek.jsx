@@ -9,7 +9,7 @@ export const YogaBibliotek = () => {
             <div className="bg-cover bg-center bg-fixed" style={{backgroundImage: 'url(' + Yoga4 + ')'}}>
                 <section className="h-screen flex items-center">
                     <div className="text">
-                        <h1 className="text-9xl mb-8 text-white font-black">Yogabibliotek</h1>
+                        <h1 className="text-9xl mb-8 text-white font-black uppercase">Yogabibliotek</h1>
                     </div>
                 </section>
                 <section className="flex p-4 lg:p-20 bg-gray-50">

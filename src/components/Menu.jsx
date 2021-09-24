@@ -65,7 +65,7 @@ export const Menu = () => {
                         <li onMouseLeave={toggleYogaDropdown} onMouseEnter={toggleYogaDropdown} className="relative">
                             <button className="font-semibold flex w-full py-2 px-4 hover:text-gray-400 outline-none focus:outline-none">Yoga</button>
 
-                            <div className={'lg:absolute left-0 px-4 py-2 bg-pink-200 rounded-lg ' + (yogaDropdownVisible ? '' : 'hidden')}>
+                            <div className={'lg:absolute left-0 px-4 py-2 bg-pink-100 rounded-lg ' + (yogaDropdownVisible ? '' : 'hidden')}>
                                 <ul className="space-y-2 lg:w-48">
                                     <li><Link onClick={toggleNavbar} to="/alignment-yoga" className="flex py-2 hover:text-gray-400">Alignment yoga</Link></li>
                                     <li><Link onClick={toggleNavbar} to="/cocktail-beer-yoga" className="flex py-2 hover:text-gray-400">Cocktail / beer yoga</Link></li>
